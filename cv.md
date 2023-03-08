@@ -1,11 +1,12 @@
 # Tania Doump
 ## UX/UI Designer / Junior Frontend Developer
+![Tania]()
 
 ## Contacts:
-**Phone:** +7 911 700 50 40\
-**Email:** tdoump@gmail.com\
+**Phone:** +7 911 742-50-92\
+**Email:** t.doump@gmail.com\
 **Telegram:** @TanyaDoump\
-[behance](https://www.behance.net/tanyadoump "My portfolio")
+**Discort:** @TaniaDou
 <hr>
 
 ### About
