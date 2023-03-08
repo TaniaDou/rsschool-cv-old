@@ -23,7 +23,8 @@ Graduated from St. Petersburg University of Economics and Finance, I started my 
 * [Sololearn CSS](https://www.sololearn.com/certificates/CT-9PYVQ2KH)
 * [FreeCodeCamp](https://www.freecodecamp.org/)
 * [HTML Academy](https://htmlacademy.ru/)
-* JS Manual on [learnjavascript.ru](https://learn.javascript.ru/)
+* JS Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
+* RS School Course [JS/Front-end. Stage 0]() (in progress)
 ### Languages
 * English - Intermediate
 * Russian - Native
