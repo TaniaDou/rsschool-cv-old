@@ -1,2 +1,2 @@
 # rsschool-cv
-JavaScript/Front-end 2023Q1
+JavaScript/Front-end 2023Q2
