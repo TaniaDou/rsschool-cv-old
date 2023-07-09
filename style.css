@@ -44,13 +44,14 @@ body {
   .main-wrapper__grid {
       display: grid;
       grid-template-columns: repeat(2,1fr);
-      gap: 4rem;
+      gap: 2rem;
   }
   .wrapper__grid {
       display: grid;
-      grid-template-columns: repeat(3,1fr);
+      grid-template-columns: repeat(4,1fr);
       gap: 4rem;
-      margin-bottom: 4rem;
+      margin: 4rem 5%;
+
   }
   .section-title {
     padding-top: 2rem;
@@ -68,6 +69,10 @@ body {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
+      padding-top: 2rem;
+  }
+  .bx {
+      color: #38ACf3;
   }
   .position {
     color: white;
@@ -87,4 +92,36 @@ body {
   .btn:hover {
         background: white;
       color: #38ACf3;
+  }
+
+  .footer{
+      background: #141942;
+  }
+  .footer-wrapper {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: row;
+      gap: 10rem;
+      flex-wrap: nowrap;
+      justify-content: center;
+
+  }
+  .rs_logo {
+      height: 70px;
+  }
+  .mygit {
+      font-size: 4rem;
+  }
+  li::marker {
+      color: #38ACf3;
+  }
+  .skills__list, .courses__list, .languages__list {
+      padding-left: 1rem;
+  }
+  .skills__item, .course__item, .language__item {
+      padding-bottom: 1rem;
+  }
+  .course__item a {
+      text-decoration: none;
+      color: white;
   }
