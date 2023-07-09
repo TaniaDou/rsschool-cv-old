@@ -1,0 +1,127 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arimo', 'Arial', sans-serif;
+    color: white;
+    line-height: 1.5;
+    background-color: #00042A;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+  .nav-link {
+    padding: 0 2rem;
+    line-height: 5rem;
+    text-decoration: none;
+    color: #38ACf3;
+    font-size: 2rem;
+    transition: 1s;
+  }
+  .nav-link:hover {
+    color: white;
+  }
+  .main-wrapper__grid {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 2rem;
+  }
+  .wrapper__grid {
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      gap: 4rem;
+      margin: 4rem 5%;
+
+  }
+  .section-title {
+    padding-top: 2rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color:#38ACf3;
+  }
+.pic {
+    width: 25%;
+    border-radius: 50%;
+    outline: 3px solid rgba(78, 185, 238, 0.925);
+    outline-offset: .7rem;
+  }
+  .section-profile {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+      padding-top: 2rem;
+  }
+  .bx {
+      color: #38ACf3;
+  }
+  .position {
+    color: white;
+  }
+  .btn-wrapper {
+      margin: 2rem 0;
+  }
+  .btn {
+      margin: .5rem;
+      padding: 1em 2em;
+      background: #38ACf3;
+      color: white;
+      text-decoration: none;
+      transition: all .5s;
+      border-radius: 2rem;
+  }
+  .btn:hover {
+        background: white;
+      color: #38ACf3;
+  }
+
+  .footer{
+      background: #141942;
+  }
+  .footer-wrapper {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: row;
+      gap: 10rem;
+      flex-wrap: nowrap;
+      justify-content: center;
+
+  }
+  .rs_logo {
+      height: 70px;
+  }
+  .mygit {
+      font-size: 4rem;
+  }
+  li::marker {
+      color: #38ACf3;
+  }
+  .skills__list, .courses__list, .languages__list {
+      padding-left: 1rem;
+  }
+  .skills__item, .course__item, .language__item {
+      padding-bottom: 1rem;
+  }
+  .course__item a {
+      text-decoration: none;
+      color: white;
+  }
