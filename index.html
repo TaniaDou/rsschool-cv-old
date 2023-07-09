@@ -1,10 +1,116 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="tree_card.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+          rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     <title>CV Tania Doump</title>
 </head>
 <body>
+<header class="header">
+    <div class="container">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About me</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main class="main">
+    <div class="container">
+        <div class="main-wrapper__grid">
+            <section class="section section-profile" id="profile">
+                <img class="pic" src="doump.jpg" alt="My pic">
+                <h1 class="section-title">Татьяна Думп</h1>
+                <p class="position">UX/UI Designer / Junior Frontend Developer</p>
+                <div class="btn-wrapper">
+                    <a class="btn btn--base" href="mailto:t.doump@gmail.com" target="_blank">Email me</a>
+                    <a class="btn btn--download" href="#">Download CV <i class='bx bxs-download'></i></a>
+                </div>
+            </section>
+            <section class="section section-contact" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <div class="phone"><i class='bx bxs-phone'></i> +7 911 7XX-XX-XX</div>
+                <div class="email"><i class='bx bxs-envelope'></i> t.doump@gmail.com</div>
+                <div class="discort"><i class='bx bxs-message-alt-dots'></i> @TaniaDou</div>
+                <section class="section section-about" id="about">
+                    <h2 class="section-title">About me</h2>
+                    <p class="about__text">Graduated from St. Petersburg University of Economics and Finance, I started my
+                        career in business literature publishing. I was responsible for managing the full cycle of
+                        publishing: from acquiring the foreign rights, finding sponsors, to getting the finished print run
+                        in the printing house. The experience gained allowed me to go freelance, so I started working for
+                        myself. Two years ago, I completed a one-year retraining course as a web designer at Peter the Great
+                        Polytechnic University. And here I fully realized that this is only the tip of the iceberg, and the
+                        frontend captures me with my head. And this is just the beginning...</p>
+                </section>
+            </section>
+        </div>
+
+        <div class="wrapper__grid">
+
+            <section class="section section-skills" id="skills">
+                <h2 class="section-title">Skills and Proficiency</h2>
+                <ul class="skills__list">
+                    <li class="skills__item">Figma</li>
+                    <li class="skills__item">Adobe Photoshop, Illustrator</li>
+                    <li class="skills__item">HTML, CSS</li>
+                    <li class="skills__item">JS Basics</li>
+                </ul>
+            </section>
+            <section class="section section-courses" id="education">
+                <h2 class="section-title">Courses</h2>
+                <ul class="courses__list">
+                    <li class="course__item"><a class="course__link"
+                                                href="https://www.sololearn.com/certificates/CT-7JUPHIYY">Sololearn
+                        HTML</a></li>
+                    <li class="course__item"><a class="course__link"
+                                                href="https://www.sololearn.com/certificates/CT-9PYVQ2KH">Sololearn
+                        CSS</a></li>
+                    <li class="course__item"><a class="course__link"
+                                                href="https://www.freecodecamp.org/">FreeCodeCamp</a></li>
+                    <li class="course__item"><a class="course__link" href="https://htmlacademy.ru/">HTML Academy</a>
+                    </li>
+                    <li class="course__item"><a class="course__link" href="https://learn.javascript.ru/">JS Manual on
+                        learnjavascript.ru (in progress)</a></li>
+                    <li class="course__item"><a class="course__link" href="#">RS School Course JS/Front-end. Stage 0 (in
+                        progress)</a></li>
+                </ul>
+            </section>
+            <section class="section section-languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="languages__list">
+                    <li class="language__item">English - Intermediate</li>
+                    <li class="language__item">Russian - Native</li>
+                </ul>
+            </section>
+            <section class="section section-code">
+                <h2 class="section-title">Code Example</h2>
+                <pre class="code">KATA from CODEWARS: <code>function multiply($a, $b){return $a * $b;}</code>
+                </pre>
+
+            </section>
+        </div>
+    </div>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-wrapper">
+        <div class="copyright">&copy; Создано в 2023</div>
+        <a href="https://github.com/TaniaDou" class="mygit"><i class='bx bxl-github'></i></a>
+        <a href="https://rs.school/js/"><img src="rs_school_js.svg" alt="RS logo" class="rs_logo"></a>
+        </div>
+    </div>
+</footer>
 
 </body>
 </html>
